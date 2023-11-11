@@ -1,88 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jazmín Rodríguez</title>
 </head>
+
 <body>
-    <header> <!--NavbarFin-->
-        <nav>
+    <div class="navbar"><!--NavbarFin-->
+        <header>
+            <nav>
                 <a href="">Inicio</a>
                 <a href="">Lenguajes</a>
                 <a href="">Programas</a>
                 <a href="">Proyectos</a>
                 <a href="">Contacto</a>
-        </nav>
-    </header> <!--NavbarFin-->
-    <h1>Jazmín Rodríguez González</h1>
-    <h1>Desarrolladora Java Full Stack</h1>
-    <div class="container">
-        <h2>Acerca de mí</h2>
-        <p>Hola, quiero contarles que soy una persona observadora, imaginativa y creativa por eso, me desempeño
-            como desarrolladora Java Full Stack.</p>
-        <p>Soy egresada de la carrera de Ciencias de la Comunicación con especialidad en publicidad por la UNAM ;
-            actualmente me dedico al área TI con los ideales de comprender las necesidades de las y los usuarios, 
-           así como brindarles la mejor experiencia con la tecnología.</p>
-    </div> <!--Acerca de mi Fin-->
-    <h1>Lenguajes de programación</h1>
-    <div class="cards1">
-        <div><!--JAVA Inicio-->
-            <div class="imagen">
-            <img src="./css/img/IMG-Java.png">
+            </nav>
+        </header>
+    </div><!--NavbarFin-->
+
+    <div class="about_me"><!--About me Inicio-->
+        <div class="title_img"><!--Foto imagen  Inicio-->
+            <div class="title">
+                <h1>Jazmín Rodríguez González</h1>
+                <h1>Desarrolladora Java Full Stack</h1>
             </div>
-        <div class="titulocards">
-        <h2>JAVA</h2>
+            <div class="profile_img"><!--Imagen Jazmin Inicio-->
+                <img src="./src/img/Jazmin.png" alt="">
+            </div><!--Foto Jazmin Fin-->
         </div>
-    </div><!--JAVA  Fin-->
-        <div><!--JAVA SCRIPT Inicio-->
-            <div class="imagen">
-            <img src="./css/img/IMG-JS.png">
-            </div>
-        <div class="titulocards">
-        <h2>JAVA SCRIPT</h2>
+        <div class="container">
+            <h2>Acerca de mí</h2>
+            <p>Hola, quiero contarles que soy una persona observadora, imaginativa y creativa por eso, me desempeño
+                como desarrolladora Java Full Stack.</p>
+            <p>Soy egresada de la carrera de Ciencias de la Comunicación con especialidad en publicidad por la UNAM ;
+                actualmente me dedico al área TI con los ideales de comprender las necesidades de las y los usuarios,
+                así como brindarles la mejor experiencia con la tecnología.</p>
+        </div> <!--Acerca de mi Fin-->
+    </div> <!--About me Fin-->
+
+    <div class="programation"> <!--Cards Inicio-->
+        <div class="tittle">
+            <h1>Lenguajes de programación</h1>
         </div>
-    </div><!--JAVA SCRIPT Fin-->
-        <div><!--HTMLInicio-->
+        <div class="cards_programation">
+            <div class="card_programation">
                 <div class="imagen">
-                <img src="./css/img/IMG-HTML.png">
+                    <img src="./src/img/IMG-Java.png">
                 </div>
-            <div class="titulocards">
-            <h2>HTML</h2>
+                <div class="titulocards">
+                    <h2>JAVA</h2>
+                </div>
             </div>
-        </div><!--HTML Fin-->
-        <div><!--CSS Inicio-->
+
+            <div class="card_programation">
                 <div class="imagen">
-                <img src="./css/img/IMG- CSS.png">
+                    <img src="./src/img/IMG-JS.png">
                 </div>
-            <div class="titulocards">
-            <h2>CSS</h2>
+                <div class="titulocards">
+                    <h2>JAVASCRIPT</h2>
+                </div>
             </div>
-        </div><!--CSS Fin-->
-    </div><!--Lenguajes de programación  Fin-->
-    <h1>Programas</h1>
-    <div class="cards2"><!--Programas Inicio-->
-        <div><!--GIT Inicio-->
+
+            <div class="card_programation">
                 <div class="imagen">
-                <img src="./css/img/IMG-GIT.png">
+                    <img src="./src/img/IMG-HTML.png">
                 </div>
-            <div class="titulocards2">
-            <h2>GIT</h2>
+                <div class="titulocards">
+                    <h2>HTML</h2>
+                </div>
             </div>
-        </div><!--GIT Fin-->
-        <div><!--Figma Inicio-->
-            <div class="imagen">
-            <img src="./css/img/IMG-FIGMA.png">
+
+            <div class="card_programation">
+                <div class="imagen">
+                    <img src="./src/img/IMG- CSS.png">
+                </div>
+                <div class="titulocards">
+                    <h2>CSS</h2>
+                </div>
             </div>
-        <div class="titulocards2">
-        <h2>Figma</h2>
+
+            <div class="card_programation">
+                <div class="imagen">
+                    <img src="./src/img/IMG-GIT.png">
+                </div>
+                <div class="titulocards">
+                    <h2>GIT</h2>
+                </div>
+
+            </div>
+
+            <div class="card_programation">
+                <div class="imagen">
+                    <img src="./src/img/IMG-FIGMA.png">
+                </div>
+                <div class="titulocards">
+                    <h2>FIGMA</h2>
+                </div>
+            </div>
         </div>
-    </div><!--Figma Fin-->
-    </div><!--Programas Fin-->
+    </div> <!--Cards Fin-->
+
     <h1>Proyectos</h1>
     <!--Proyectos Inicio-->
-    
+
     <!--Proyectos Fin-->
     <button class="visitar">Visitar</button>
     <h1>Contacto</h1>
@@ -90,21 +113,22 @@
         <div class="nombe-correo"><!-- Div Form Nombre Inicio-->
             <label for="nombre"></label>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre">
-            
+
             <label for="email"></label>
             <input type="email" id="email" name="email" placeholder="Direccion de correo electrónico">
         </div><!--Div Form Nombre Fin-->
-            <label for="mensaje"></label>
-            <textarea id="mensaje">Mensaje</textarea>
-            <div id="enviar">
+        <label for="mensaje"></label>
+        <textarea id="mensaje">Mensaje</textarea>
+        <div id="enviar">
             <button>Enviar</button>
-             </div>
+        </div>
     </form><!--Formulario Fin-->
     <footer><!--Footer Inicio-->
         <h3 id="gracias">¡Gracias por visitar!</h3>
         <p id="correojaz">rodriguezgonzalezjazmin05@gmail.com</p>
-        <img src="./css/img/github.png" alt="" class="footerimg">
-        <img src="./css/img/in.png" alt="" class="footerimg">
+        <img src="./src/img/github.png" alt="" class="footerimg">
+        <img src="./src/img/in.png" alt="" class="footerimg">
     </footer><!--Footer Fin-->
 </body>
+
 </html>
