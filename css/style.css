@@ -1,0 +1,122 @@
+/*Navbar Inicio*/
+header{
+    justify-content:space-between;
+    background-color:white;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: black;
+    border-style:groove;
+    font-size: larger;
+    margin: 20px 
+}
+a {color: rgb(0, 0, 0);padding: 20px 20px;
+    text-decoration: none;
+}
+
+a:hover{color: rgb(0, 0, 0);
+    background-color: rgb(240, 209, 217);transition: 1s;
+    border-radius:20px;
+/*Navbar Fin*/
+}
+.container{
+    padding: 15px;
+    background-color:rgb(215,240,209);
+    border-radius: 20px;
+    border-color: black;
+    border-style:groove;
+    width: 80%;
+    margin: 20px 
+}
+/*Cards Lenguajes Inicio*/
+.titulocards{
+    border-radius:none, none,20px,20px;
+    background-color: black;
+    width: flex;
+    height: 40px;
+    color:rgb(255,234,170);
+    text-align: center;
+}
+.cards1{
+    background-color:rgb(255,234,170) ;
+    width: 15%;
+    border-radius:20px;
+    align-content: center;
+    border-color: black;
+    border-style:groove;
+}
+.imagen{
+    text-align: center;
+}
+/*Cards Programas Inicio*/
+.cards2{
+    background-color:rgb(240, 209, 217);
+    width: 15%;
+    border-radius:20px;
+    align-content: center;
+    border-color: black;
+    border-style:groove;
+}
+.titulocards2{
+    border-radius:none, none,20px,20px;
+    background-color: black;
+    width: flex;
+    height: 40px;
+    color:rgb(240, 209, 217);
+    text-align: center;
+}
+/*Proyecto Inicio*/
+.visitar{
+    background-color:rgb(240, 209, 217);
+    width:20%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style:groove;
+}
+/*Proyecto Fin*/
+/*Contacto Inicio*/
+form{
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: black;
+    border-style:groove;
+}
+::placeholder{
+    background-color: rgb(203,226,255);
+    border-radius: 10px;
+    border-color: black;
+    border-style:groove;
+}
+#mensaje{
+    background-color: rgb(203,226,255);
+    border-radius: 10px;
+    border-color: black;
+    border-style:groove;
+    width: 90%; 
+}
+button{
+    border-radius: 10px;
+    border-color: black;
+    border-style:groove;
+    background-color:rgb(240, 209, 217);
+    width: 40%; 
+}
+/*Contacto Fin*/
+/*Footer Inicio*/
+footer{
+    background-color:black;
+    height: 200px;
+}
+#gracias{
+    color:rgb(215,240,209);
+}
+#correojaz{
+    color:rgb(215,240,209);
+}
+/*Footer Fin*/
