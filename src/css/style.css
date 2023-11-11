@@ -48,21 +48,27 @@ a:hover{
 /*About me Fin*/
 
 /*Cards Lenguajes Inicio*/
+.programation{
+    width: 85%;
+    max-width: 1200px;
+    margin: 50px auto; 
+}
 .titulocards{
     border-radius: 0 0 15px 15px;
     background-color: black;
-    width: flex;
     height: flex;
     color:rgb(255,234,170);
     text-align: center;
 }
 .card_programation{
     background-color:rgb(255,234,170) ;
-    width: 15%;
+    width:300px;
     border-radius:20px;
-    align-content: center;
     border-color: black;
     border-style:groove;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .imagen{
     text-align: center;
@@ -70,7 +76,13 @@ a:hover{
 h2{
     margin: 0;
 }
-/*Cards Programas Inicio*/
+.cards_programation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+/*Cards Programas Fin*/
 
 /*Proyecto Inicio*/
 .visitar{
