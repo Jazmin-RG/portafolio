@@ -14,7 +14,6 @@
             <nav>
                 <a href="">Inicio</a>
                 <a href="">Lenguajes</a>
-                <a href="">Programas</a>
                 <a href="">Proyectos</a>
                 <a href="">Contacto</a>
             </nav>
@@ -103,31 +102,43 @@
         </div>
     </div> <!--Cards Fin-->
 
-    <h1>Proyectos</h1>
-    <!--Proyectos Inicio-->
+    <div class="project"><!--Proyectos Inicio-->
+        <h1>Proyectos</h1>
+        <button class="visitar">Visitar</button>
+    </div><!--Proyectos Fin-->
 
-    <!--Proyectos Fin-->
-    <button class="visitar">Visitar</button>
-    <h1>Contacto</h1>
-    <form action="" class="form"><!--Formulario Inicio-->
-        <div class="nombe-correo"><!-- Div Form Nombre Inicio-->
-            <label for="nombre"></label>
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+    <div class="contact">
+        <h1>Contacto</h1>
+        <form action="" class="form"><!--Formulario Inicio-->
+            <div class="nombre-correo"><!-- Div Form Nombre Inicio-->
+                <div class="name">
+                <label for="nombre"></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                </div>
 
-            <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="Direccion de correo electrónico">
-        </div><!--Div Form Nombre Fin-->
-        <label for="mensaje"></label>
-        <textarea id="mensaje">Mensaje</textarea>
-        <div id="enviar">
-            <button>Enviar</button>
-        </div>
-    </form><!--Formulario Fin-->
+                <div class="div-email">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Direccion de correo electrónico">
+                </div>
+
+            </div><!--Div Form Nombre Fin-->
+            <div class="message-form">
+            <label for="mensaje"></label>
+            <textarea id="mensaje"placeholder="Mensaje">Mensaje</textarea>
+            </div>
+            <div id="enviar">
+                <button>Enviar</button>
+            </div>
+        </form><!--Formulario Fin-->
+    </div>
+
     <footer><!--Footer Inicio-->
-        <h3 id="gracias">¡Gracias por visitar!</h3>
-        <p id="correojaz">rodriguezgonzalezjazmin05@gmail.com</p>
-        <img src="./src/img/github.png" alt="" class="footerimg">
-        <img src="./src/img/in.png" alt="" class="footerimg">
+        <h1 id="gracias">¡Gracias por visitar!</h1>
+        <h3 id="correojaz">rodriguezgonzalezjazmin05@gmail.com</h3>
+        <div class="social-media">
+            <img src="./src/img/github.png" alt="" class="footerimg">
+            <img src="./src/img/in.png" alt="" class="footerimg">
+        </div>
     </footer><!--Footer Fin-->
 </body>
 

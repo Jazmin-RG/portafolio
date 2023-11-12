@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /*Navbar Inicio*/
 .navbar{
     display: flex;
     justify-content:center;
 }
+
 header{
     justify-content:space-between;
     background-color:white;
@@ -63,6 +68,7 @@ a:hover{
 .card_programation{
     background-color:rgb(255,234,170) ;
     width:300px;
+    height:320px ;
     border-radius:20px;
     border-color: black;
     border-style:groove;
@@ -71,7 +77,16 @@ a:hover{
     justify-content: space-between;
 }
 .imagen{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    fill:none
+}
+.imagen img{
+    object-fit: contain;
+    height:200px ;
+    width: 200px;
 }
 h2{
     margin: 0;
@@ -85,6 +100,11 @@ h2{
 /*Cards Programas Fin*/
 
 /*Proyecto Inicio*/
+.project{
+    width: 85%;
+    max-width: 1200px;
+    margin: 50px auto; 
+}
 .visitar{
     background-color:rgb(240, 209, 217);
     width:20%;
@@ -97,27 +117,59 @@ h2{
 /*Proyecto Fin*/
 
 /*Contacto Inicio*/
+.nombre-correo{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+}
+.name{
+    flex-grow: 1;
+}
+.div-email{
+    flex-grow: 1;
+}
+.contact{
+    width: 85%;
+    max-width: 1200px;
+    margin: 50px auto; 
+}
 form{
     background-color: white;
-    width: 70%;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     border-radius: 20px;
     border-color: black;
     border-style:groove;
 }
-::placeholder{
+#nombre{
     background-color: rgb(203,226,255);
     border-radius: 10px;
     border-color: black;
     border-style:groove;
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+
+}
+#email{
+    background-color: rgb(203,226,255);
+    border-radius: 10px;
+    border-color: black;
+    border-style:groove;
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+   
 }
 #mensaje{
     background-color: rgb(203,226,255);
     border-radius: 10px;
     border-color: black;
     border-style:groove;
-    width: 90%; 
+    width: 100%; 
+    margin: 50px 0;
+    height: 150px;
+    padding: 10px;
 }
 button{
     border-radius: 10px;
@@ -125,6 +177,7 @@ button{
     border-style:groove;
     background-color:rgb(240, 209, 217);
     width: 40%; 
+    height: 80px;
 }
 /*Contacto Fin*/
 
@@ -132,6 +185,13 @@ button{
 footer{
     background-color:black;
     height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media img{
+    width:100px;
+    height:100px;
 }
 #gracias{
     color:rgb(215,240,209);
@@ -140,3 +200,32 @@ footer{
     color:rgb(215,240,209);
 }
 /*Footer Fin*/
+
+/*Responsive Inicio*/
+@media(max-width:650px){
+    .navbar a{
+        display: inline-block;
+    }
+    header{
+        padding: 0;
+    }
+    .title_img{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .nombre-correo{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:1100px){
+.cards_programation{
+    justify-content: space-evenly;
+}
+    footer{
+    flex-direction: column;
+}
+}
+/*Responsive Fin*/
