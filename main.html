@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" href="./src/img/icono.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jazmín Rodríguez</title>
 </head>
@@ -12,15 +13,15 @@
     <div class="navbar"><!--NavbarFin-->
         <header>
             <nav>
-                <a href="">Inicio</a>
-                <a href="">Lenguajes</a>
-                <a href="">Proyectos</a>
-                <a href="">Contacto</a>
+                <a class="animation-navbar" href="#Inicio">Inicio</a>
+                <a class="animation-navbar" href="#Lenguajes">Lenguajes</a>
+                <a class="animation-navbar" href="#Project">Proyectos</a>
+                <a class="animation-navbar" href="#Contacto">Contacto</a>
             </nav>
         </header>
     </div><!--NavbarFin-->
 
-    <div class="about_me"><!--About me Inicio-->
+    <div class="about_me" id="Inicio"><!--About me Inicio-->
         <div class="title_img"><!--Foto imagen  Inicio-->
             <div class="title">
                 <h1>Jazmín Rodríguez González</h1>
@@ -40,7 +41,7 @@
         </div> <!--Acerca de mi Fin-->
     </div> <!--About me Fin-->
 
-    <div class="programation"> <!--Cards Inicio-->
+    <div class="programation" id="Lenguajes"> <!--Cards Inicio-->
         <div class="tittle">
             <h1>Programas y lenguajes de programación</h1>
         </div>
@@ -102,12 +103,63 @@
         </div>
     </div> <!--Cards Fin-->
 
-    <div class="project"><!--Proyectos Inicio-->
+    <div class="project" id="Project"><!--Proyectos Inicio-->
         <h1>Proyectos</h1>
+        <div class="cardBox">
+            <div class="card">
+                <div class="front">
+                    <div class="imagen">
+                        <img src="./css/img/IMG-Java.png">
+                    </div>
+                    <div class="titulocards-project">
+                        <h2>AMR</h2>
+                    </div>
+                </div>
+                <div class="back">
+                    <p>Descripción</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cardBox">
+            <div class="card">
+                <div class="front">
+                    <div class="imagen">
+                        <img src="./css/img/IMG-Java.png">
+                    </div>
+                    <div class="titulocards-project">
+                        <h2>Refugio de abrazos</h2>
+                    </div>
+                </div>
+                <div class="back">
+                    <p>Descripción</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cardBox">
+            <div class="card">
+                <div class="front">
+                    <div class="imagen">
+                        <img src="./css/img/IMG-Java.png">
+                    </div>
+                    <div class="titulocards-project">
+                        <h2>E-comerce: floreria</h2>
+                    </div>
+                </div>
+                <div class="back">
+                    <p>Descripción</p>
+                </div>
+            </div>
+        </div>
+        <div class="botones">
         <button class="visitar">Visitar</button>
+        <button class="visitar">Visitar</button>
+        <button class="visitar">Visitar</button>
+        </div>
     </div><!--Proyectos Fin-->
 
-    <div class="contact">
+    <div class="contact" id="Contacto">
         <h1>Contacto</h1>
         <form action="" class="form"><!--Formulario Inicio-->
             <div class="nombre-correo"><!-- Div Form Nombre Inicio-->
@@ -127,7 +179,7 @@
             <textarea id="mensaje"placeholder="Mensaje">Mensaje</textarea>
             </div>
             <div id="enviar">
-                <button>Enviar</button>
+                <button class="boton">Enviar</button>
             </div>
         </form><!--Formulario Fin-->
     </div>
@@ -136,8 +188,12 @@
         <h1 id="gracias">¡Gracias por visitar!</h1>
         <h3 id="correojaz">rodriguezgonzalezjazmin05@gmail.com</h3>
         <div class="social-media">
-            <img src="./src/img/github.png" alt="" class="footerimg">
-            <img src="./src/img/in.png" alt="" class="footerimg">
+             <a href="https://github.com/Jazmin-RG" target="_blank">
+             <img src="./src/img/github.png" alt="" class="footerimg">
+             </a>
+             <a href="https://www.linkedin.com/in/jazmin-rodr%C3%ADguez-gonz%C3%A1lez/" target="_blank">
+             <img src="./src/img/in.png" alt="" class="footerimg">
+             </a>
         </div>
     </footer><!--Footer Fin-->
 </body>
