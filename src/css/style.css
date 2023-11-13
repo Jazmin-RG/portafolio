@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Lusitana:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Jua', serif;
+    z-index:2;
+}
+span{
+    position:absolute;
+    border-radius: 50%;
+    z-index:-1;
+    pointer-events: none;
 }
 /*Navbar Inicio*/
 .navbar{
@@ -100,6 +110,12 @@ h2{
 /*Cards Programas Fin*/
 
 /*Proyecto Inicio*/
+.boxes-cards{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
 .project{
     width: 85%;
     max-width: 1200px;
@@ -107,15 +123,11 @@ h2{
 }
 .cardBox {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-    float: left;
-    margin: 1% 0 0 1%;
+    flex-direction: column;
     perspective: 800px;
     transition: all 0.3s ease 0s;
-    width:300px;
-    height:320px ;  
+    width: 306px;
+    height:320px;  
   }
   .cardBox:hover .card {
     transform: rotateY(180deg);
@@ -155,10 +167,10 @@ h2{
     border-color: black;
     border-style:groove;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .front{
-    margin:20%;
     border-radius:20px;
     border-color: black;
     border-style:groove;
@@ -168,16 +180,14 @@ h2{
 }
 .visitar{
     background-color:rgb(240, 209, 217);
-    width:20%;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
     border-color: black;
     border-style:groove;
-}
-.botones{
-    flex-direction:row;
-    justify-content: space-between;
+    margin:10px 0;
+    text-decoration: none; 
+    color: black;
 }
 /*Proyecto Fin*/
 
