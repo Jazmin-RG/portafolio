@@ -6,6 +6,9 @@
     font-family: 'Lusitana', serif;
     z-index:2;
 }
+a{
+    text-decoration: none;
+}
 span{
     position:absolute;
     border-radius: 50%;
@@ -30,6 +33,10 @@ span{
 .navbar{
     display: flex;
     justify-content:center;
+    position: sticky;
+    top: 10px;
+    z-index: 3;
+    margin-top:10px;
 }
 
 header{
