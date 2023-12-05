@@ -93,7 +93,7 @@ header{
     border-radius: 0 0 15px 15px;
     background-color: black;
     height: flex;
-    color:rgb(255,234,170);
+    color:#ffeaaa;
     text-align: center;
 }
 .card_programation{
@@ -268,7 +268,7 @@ form{
     border-color: black;
     border-style:groove;
     width: 100%; 
-    margin: 50px 0;
+    margin-top: 50px;
     height: 150px;
     padding: 10px;
 }
@@ -279,7 +279,16 @@ form{
     background-color:rgb(240, 209, 217);
     width: 40%; 
     height: 80px;
+    margin-top  : 50px;
 }
+
+.alerta{
+    display:none;
+    position:absolute;
+    color:#f74894 ;
+    margin-top: 5px;
+}
+
 /*Contacto Fin*/
 
 /*Footer Inicio*/
@@ -293,9 +302,11 @@ footer{
 .social-media img{
     width:100px;
     height:100px;
+    margin-right:30px;
 }
 #gracias{
     color:rgb(215,240,209);
+    margin-left: 30px;
 }
 #correojaz{
     color:rgb(215,240,209);

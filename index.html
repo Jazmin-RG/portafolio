@@ -169,17 +169,20 @@
                 <div class="name">
                 <label for="nombre"></label>
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                    <p class="alerta" id="error-nombre">Error en el nombre, por favor verifique</p>
                 </div>
 
                 <div class="div-email">
                 <label for="email"></label>
                 <input type="email" id="email" name="email" placeholder="Direccion de correo electrónico">
+                    <p class="alerta" id="error-email">Error en la dirección de correro, por favor verifique</p>
                 </div>
 
             </div><!--Div Form Nombre Fin-->
             <div class="message-form">
             <label for="mensaje"></label>
-            <textarea id="mensaje"placeholder="Mensaje">Mensaje</textarea>
+            <textarea id="mensaje"placeholder="Mensaje" name="mensaje">Mensaje</textarea>
+            <p class="alerta" id="error-mensaje">Por favor, escriba un mensaje</p>
             </div>
             <div id="enviar">
                 <button class="boton">Enviar</button>
@@ -201,7 +204,10 @@
              </a>
         </div>
     </footer><!--Footer Fin-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="./src/js/style.js"></script>
+    <script src="./src/js/validacion.js"></script>
 </body>
 
 </html>
